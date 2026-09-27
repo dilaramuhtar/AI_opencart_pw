@@ -1,0 +1,80 @@
+<testsuites id="" name="" tests="12" failures="0" skipped="0" errors="0" time="32.897672">
+<testsuite name="web/opencart-account.spec.ts" timestamp="2026-09-27T01:40:10.780Z" hostname="chromium" tests="4" failures="0" skipped="0" time="45.911" errors="0">
+<testcase name="Customer registration @master @sanity @regression @web" classname="web/opencart-account.spec.ts" time="14.783">
+<system-out>
+<![CDATA[✅ Customer registration completed successfully.
+]]>
+</system-out>
+</testcase>
+<testcase name="Valid customer login @master @sanity @regression @web" classname="web/opencart-account.spec.ts" time="8.921">
+<system-out>
+<![CDATA[✅ Valid login completed successfully.
+]]>
+</system-out>
+</testcase>
+<testcase name="Invalid customer login @master @regression @web" classname="web/opencart-account.spec.ts" time="11.789">
+<system-out>
+<![CDATA[✅ Invalid login was rejected.
+]]>
+</system-out>
+</testcase>
+<testcase name="Customer logout @master @sanity @regression @web" classname="web/opencart-account.spec.ts" time="10.418">
+<system-out>
+<![CDATA[✅ Logout completed successfully.
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="web/opencart-login-data-driven.spec.ts" timestamp="2026-09-27T01:40:10.780Z" hostname="chromium" tests="5" failures="0" skipped="0" time="26.978" errors="0">
+<testcase name="Login row 1: Valid login @master @regression @datadriven @web" classname="web/opencart-login-data-driven.spec.ts" time="5.545">
+<system-out>
+<![CDATA[✅ Login data row 1 matched its expected result.
+]]>
+</system-out>
+</testcase>
+<testcase name="Login row 2: Invalid login @master @regression @datadriven @web" classname="web/opencart-login-data-driven.spec.ts" time="4.34">
+<system-out>
+<![CDATA[✅ Login data row 2 matched its expected result.
+]]>
+</system-out>
+</testcase>
+<testcase name="Login row 3: Invalid login @master @regression @datadriven @web" classname="web/opencart-login-data-driven.spec.ts" time="6.479">
+<system-out>
+<![CDATA[✅ Login data row 3 matched its expected result.
+]]>
+</system-out>
+</testcase>
+<testcase name="Login row 4: Invalid login @master @regression @datadriven @web" classname="web/opencart-login-data-driven.spec.ts" time="6.288">
+<system-out>
+<![CDATA[✅ Login data row 4 matched its expected result.
+]]>
+</system-out>
+</testcase>
+<testcase name="Login row 5: Invalid login @master @regression @datadriven @web" classname="web/opencart-login-data-driven.spec.ts" time="4.326">
+<system-out>
+<![CDATA[✅ Login data row 5 matched its expected result.
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="web/opencart-shopping.spec.ts" timestamp="2026-09-27T01:40:10.780Z" hostname="chromium" tests="3" failures="0" skipped="0" time="18.858" errors="0">
+<testcase name="Product search @master @sanity @regression @web" classname="web/opencart-shopping.spec.ts" time="3.365">
+<system-out>
+<![CDATA[✅ Product search completed successfully.
+]]>
+</system-out>
+</testcase>
+<testcase name="Add product to cart @master @sanity @regression @web" classname="web/opencart-shopping.spec.ts" time="4.529">
+<system-out>
+<![CDATA[✅ Product added to the cart successfully.
+]]>
+</system-out>
+</testcase>
+<testcase name="Complete customer shopping journey @master @regression @end-to-end @web" classname="web/opencart-shopping.spec.ts" time="10.964">
+<system-out>
+<![CDATA[✅ Complete customer shopping journey succeeded.
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
